@@ -1,1 +1,2 @@
-# react-portal
+# portal template for React applications
+
