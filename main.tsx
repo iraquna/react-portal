@@ -14,7 +14,7 @@ export function Portal({ children, className, id }: Props): JSX.Element | null {
 
         const el = document.createElement("div");
 
-        el.setAttribute("class", `modal ${className}`);
+        if(className)el.setAttribute("class", className);
 
         if (id) el.setAttribute("id", id);
 
